@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.css">
+    <style>
+
+     @font-face {
+        font-family: ganesh;
+        src: url(font/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+    } 
+
+        .body{
+            background-color: rgb(255, 168, 127);
+        }
+        .star{
+        background-color: rgb(188, 140, 171);
+        position: sticky;
+        top:0;
+        z-index:1;
+    }
+    .b2{
+        height: 30px;
+        width: 100px;
+       -margin-top: 27px;
+    }
+    .header{
+        background-color:white;
+        font-size: 20px;
+        /* font-family: 'Times New Roman', Times, serif; */
+        position: sticky;
+        top:0;
+        z-index: 9;
+    
+    }
+    .header:hover ul li a{
+        color: lightslategrey;
+    }
+
+
+
+
+        /* button{
+            position: relative;
+        } */
+         
+         .abc{
+            position: relative;
+         }
+        .abc button{
+            position: absolute;
+            top:-10px;
+            right:0;
+            z-index: 1;
+           background-color: blueviolet;
+           height: 30px;
+            width: 30px;
+            border-radius: 50%;
+        }
+        .Appoiment h2{
+       color:rgb(21, 65, 209);
+       -box-shadow: 0px 3px 5px 7px gray;
+       display: inline;
+       -background-color: rgb(215, 44, 221);
+    }
+
+    @media(max-width:575px) {
+
+body {
+    margin: 10px !important;
+}
+.star{
+    position: static;   
+}
+.header {
+    flex-direction: column;
+    padding-block: 5px;
+    position: static;
+}
+
+.header ul.nav {
+    flex-direction: column;
+}
+}
+
+
+        
+       
+    </style>
+</head>
+<body style="font-family: ganesh;" class="" >
+    <div class="star d-flex flex-wrap justify-content-between mx-2 my-2" >
+        <h6 class="mx-3 my-3 text-light" style="font-size: 19px;">WEL-COME TO SHREE GANESH PATHOLOGY-LAB PATAN</h6>
+    <!-- header -->
+    <div class="b1">
+       <a href="ganesh contact.html"  class="btn btn-outline-dark btn-primary text-light mt-2 me-5 rounded-5">Click the end</a></div>
+    </div>
+<div class="header border border-2 shadow-lg d-flex flex-wrap justify-content-between mx-1 my-1 text-light align-items-center">
+   <img src="Image/s ganesh.jpg" class="shadow-lg rounded-circle mx-3 my-3" width="80" alt="">
+   <ul class="nav list-unstyled justify-content-between ">
+    <li class="nav-item"><a href="ganesh.html" class="nav-link">Home</a></li>
+    <li class="nav-item"><a href="ganesh about.html" class="nav-link">About</a></li>
+    <!-- <li class="nav-item"><a href="#" class="nav-link">Packges</a></li> -->
+    <li class="nav-item"><a href="ganesh services.html" class="nav-link">Services</a></li>
+    <li class="nav-item"><a href="ganesh booked appoinment.html" class="nav-link">Appointment</a></li>
+    <li class="nav-item"><a href="ganesh contact.html" class="nav-link">Contact</a></li>
+   </ul>
+   <div class="b2">
+   <a href="ganesh login.html" class="btn btn-primary btn-outline-success text-white">Login in</a></div>
+</div>
+
+
+
+
+
+
+     <div class="Appoiment d-flex position-relative">
+        <img src="Image/contact.jpg"  height="300px" width="100%" alt="">
+        <div class="position-absolute text-center top-50  start-0 end-0 ">
+            <h2 class="text-primary mt-1" style="font-size: 50px;">Appoiment</h2></div>
+       
+     </div>
+
+
+
+    <div class="Appoiment1">
+        <h4 class="text-center text-primary mt-4">Frequently Booked Tests</h4>
+        <div class="container">
+            <div class="row">
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Haemogram (CBC)</div>
+                <div class="card-body text-success">
+                    <p>Includes 26 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.350</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg ">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Glucose - Fasting</div>
+                <div class="card-body text-success">
+                    <p>includes 1 tests</p>
+                    <p>Reports will be sent within 3 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.85</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Lipid Profile</div>
+                <div class="card-body text-success">
+                    <p>Includes 8 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.650</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- 2 -->
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Liver Function Test</div>
+                <div class="card-body text-success">
+                    <p>Includes 11 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.830</p>
+                </div>
+            </div>
+
+        </div>
+      
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">thyroid Fuction test</div>
+                <div class="card-body text-success">
+                    <p>Includes 3 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.660</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">THS</div>
+                <div class="card-body text-success">
+                    <p>Includes 1 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.365</p>
+                </div>
+            </div>
+
+        </div>
+       
+        
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Urea</div>
+                <div class="card-body text-success">
+                    <p>Includes 1 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.220</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Creatinine</div>
+                <div class="card-body text-success">
+                    <p>Includes 1 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.290</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Uric Acid</div>
+                <div class="card-body text-success">
+                    <p>Includes 1 tests</p>
+                    <p>Reports will be sent within 4 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.220</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Sodium</div>
+                <div class="card-body text-success">
+                    <p>Includes 1 tests</p>
+                    <p>Reports will be sent within 2 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.250</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Potassium</div>
+                <div class="card-body text-success">
+                    <p>Includes 1 tests</p>
+                    <p>Reports will be sent within 3 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.220</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Electrolytes</div>
+                <div class="card-body text-success">
+                    <p>Includes 4 tests</p>
+                    <p>Reports will be sent within 3 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.220</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4 abc mt-5">
+            <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+            <div class="card border border-secondary-subtle">
+                <div class="card-header text-danger">Rheumatoid Factor</div>
+                <div class="card-body text-success">
+                    <p>Includes 1 tests</p>
+                    <p>Reports will be sent within 5 hours</p>
+                </div>
+                <div class="card-footer text-danger">
+                    <p>RS.650</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4 abc mt-5">
+                <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+                <div class="card border border-secondary-subtle">
+                    <div class="card-header text-danger">Blood Group & RH</div>
+                    <div class="card-body text-success">
+                        <p>Includes 1 tests</p>
+                        <p>Reports will be sent within 4 hours</p>
+                    </div>
+                    <div class="card-footer text-danger">
+                        <p>RS.900</p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4 abc mt-5">
+                    <button class="rounded-circle text-white border-0 shadow-lg">+</button>
+                    <div class="card border border-secondary-subtle">
+                        <div class="card-header text-danger">SGPT (ALT)</div>
+                        <div class="card-body text-success">
+                            <p>Includes 1 tests</p>
+                            <p>Reports will be sent within 4 hours</p>
+                        </div>
+                        <div class="card-footer text-danger">
+                            <p>RS.220</p>
+                        </div>
+                    </div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+
+</div>
+      <!-- last -->
+       <div class="container-fluid">
+      <div class="row bg-primary-subtle p-3 mt-3">
+        <div class="col-md-5">
+         <h4 class="ms-3 text-dark">About Us</h4>
+         <p class="ms-3 text-success mt-4">Shree Ganesh Pathology Laboratory, located in Mehsana, Gujarat, has been consistently serving the community for the past decade. Currently We have working  Vrundavan arcade in station road, patan, Gujarat .</p>
+        </div>
+       
+
+        <div class="col-md-3 ps-5">
+         <h4 class="text-dark ">Information link</h4>
+         <ul class="ps-2 border text-success mt-4">
+             <li>Home</li>
+             <li>About</li>
+             <li>Packges</li>
+             <li>Services</li>
+             <li>Appointment</li>
+             <li>Contact</li>
+
+         </ul>
+        </div>
+
+         <div class="col-md-3">
+             <h4 class=" text-dark">Contacts details</h4>
+             <p class="text-success mt-4"><i class="fa-regular fa-envelope me-1 text-primary"></i>Shree ganesh23@ gamil.com</p>
+             <p class="text-success me-5"><i class="fa-solid fa-location-dot me-1 text-primary"></i>F/12 Vrudavan arcade opp
+                 bageshwar Mahadev mandir railway 
+                 station road,patan.
+                 </p>
+                 <p class="text-success me-5"><i class="fa-solid fa-phone me-1 text-primary"></i>7016950679</p>
+        </div>
+     </div>
+    </div>
+     <div class="text-center bg-primary-subtle text-primary p-2 border border-secondary-subtle" style="font-family: 'Times New Roman', Times, serif;">© 2023 Shree Ganesh Pathology Laboratory. All Rights Reserved.</div>
+
+   <script src="JS/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

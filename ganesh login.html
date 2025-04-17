@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.css">
+</head>
+<style>
+      @font-face {
+        font-family: ganesh;
+        src: url(font/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+    }
+    
+    .login h2{
+       color:rgb(21, 65, 209);
+       -box-shadow: 0px 3px 5px 7px gray;
+       display: inline;
+       -background-color: rgb(16, 178, 196);
+    }
+    .login :hover h2{
+        color: rgb(40, 121, 124);
+    }
+    
+    @media(max-width:575px){
+      body{
+        margin: 10px !important;
+      }
+    }
+    
+    .login-box{
+        max-width: 500px;
+        background-color: rgb(174, 196, 196);
+        
+    }
+    .bg-theme,.btn-theme:hover{
+        background-color: #5CA1CA;
+       
+    }
+</style>
+<body>
+    
+    <form action="" class="was-validated">
+        <body style="height:1000px; font-family: ganesh;">
+            <div class="login-box  m-5 p-3 rounded-2 shadow-lg mx-auto">
+                <img src="Image/lab logo.png" alt="" width="150px" class="d-block mx-auto">
+                <h4 class="text-center text-dark text-decoration-underline mt-3" style="font-size: 40px;">Login</h4>
+        
+                <div class="mb-2">
+                    <label for="">Email id</label>
+                    <input type="email" class="form-control" required>
+                    <div class="invalid-feedback">please enter your name</div>
+                    <div class="valid-feedback">Sucess</div>
+                </div>
+                <div class="mb-3">
+                    <label class="text-secondary">Username</label>
+                    <div class="input-group">
+                    <input type="text" class="form-control border-end-0">
+                    <span class="input-group-text bg-white border-success">
+                    <i class="fa-solid fa-user text-primary"></i></span>
+                </div>
+                    </div>
+                     <div class="mb-3">
+                        <label class="text-secondary">Password</label>
+                        <div class="input-group">
+                        <input type="password" class="form-control border-end-0">
+                        <span class="input-group-text bg-white border-success">
+                         <i class="fa-solid fa-unlock text-primary"></i>
+                    </div>
+                        </div>
+
+
+    
+            <div class="form-check form-check-inline">
+                <input type="radio" name="gender" value="male" class="form-check-input">
+                <label for="" class="form-check-label">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" name="gender" value="male" class="form-check-input">
+                <label for="" class="form-check-label">Female</label>
+            </div>
+            <div>
+                <a href="#" class="float-end small text-danger">Forgot Password</a>
+                <button class="btn btn bg-theme mt-3 form-control">Submit</button></div>
+
+
+            </div>
+
+
+
+
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

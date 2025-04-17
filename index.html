@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+<style>
+    @font-face {
+        font-family: ganesh;
+        src: url(font/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+    }
+    .star {
+        background-color: rgb(188, 140, 171);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+
+    }
+
+  
+    .b2 {
+        /* height: 30px; */
+        width: 100px;
+        -margin-top: 27px;
+    }
+
+    .header {
+        background-color: white;
+        font-size: 20px;
+        /* font-family: 'Times New Roman', Times, serif; */
+        position: sticky;
+        top: 0;
+        z-index: 1;
+
+    }
+   .header:hover{
+    color: darkgrey;
+   }
+   
+
+
+
+
+    .header:hover ul li a {
+        color: rgb(229, 69, 16);
+    }
+
+    .img {
+        transition: transform .5s;
+    }
+
+    .img:hover {
+        transform: scale(1.1);
+    }
+
+
+    @media(max-width:575px) {
+
+        body {
+            margin: 10px !important;
+        }
+        .star{
+            position: static;   
+        }
+        .header {
+            flex-direction: column;
+            padding-block: 5px;
+            position: static;
+        }
+
+        .header ul.nav {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<body style="font-family:Ganesh;">
+
+
+    <div class="star d-flex justify-content-between flex-wrap mx-2 my-2">
+        <h6 class="mx-3 my-3 text-light" style="font-size: 19px;">WEL-COME TO SHREE GANESH PATHOLOGY-LAB PATAN</h6>
+        <!-- HEADER -->
+        <div class="b1">
+            <a href="ganesh contact.html" class="btn btn-outline-dark btn-primary text-light mt-2 me-5 rounded-5">Click
+                the end </a>
+        </div>
+    </div>
+    <div
+        class="header border border-2 shadow-lg d-flex flex-wrap justify-content-between mx-1 my-1 text-light align-items-center">
+        <img src="Image/s ganesh.jpg" class="shadow-lg rounded-circle mx-3 my-3" width="80" alt="">
+        <ul class="nav list-unstyled justify-content-between ">
+            <li class="nav-item"><a href="ganesh.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="ganesh about.html" class="nav-link">About</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link">Packges</a></li> -->
+            <li class="nav-item"><a href="ganesh services.html" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="ganesh booked appoinment.html" class="nav-link">Appointment</a></li>
+            <li class="nav-item"><a href="ganesh contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="b2">
+            <a href="ganesh login.html" class="btn btn-primary btn-outline-success text-white">Login in</a>
+        </div>
+    </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="banner d-flex position-relative">
+
+
+        <video style="width: 100%;" autoplay muted loop>
+            <source src="video/lab.mp4">
+        </video>
+    </div>
+
+
+    <!-- MAIN -->
+    <div class="container-fluid">
+        <div class="row bg-success-subtle">
+            <h1 class="text-warning text-center text-decoration-underline mt-3">About Us</h1>
+            <div class="box col-md-6 shadow-sm MX-2 my-2">
+                <h3 class="text-warning ms-5 mt-5 text-decoration-underline">BEST PATHOLOGY LABORATORY</h3>
+                <div class="container mt-2 text-primary">
+
+                    <p> Shree Ganesh Pathology Laboratory, located in Patan, Gujarat, has been consistently serving the
+                        community for the past decade. Currently We have Main Working Unit Vrundavan arcade in station
+                        road, patan, Gujarat.</p>
+                    <p>With an unwavering commitment to healthcare, the laboratory operates 365 days a year, ensuring
+                        access to diagnostic services whenever needed.</p>
+                    <p>The dedicated team at Shree Ganesh Pathology Lab brings together skilled professionals and
+                        advanced technology to deliver accurate and timely results.</p>
+                    <p>Known for its reliability, Shree Ganesh Pathology Laboratory has earned the trust of the local
+                        population through a decade of consistent and high-quality service.</p>
+                    <p>Shree ganesh Pathology Laboratory specializes in a comprehensive range of diagnostic tests,
+                        contributing significantly to preventive and curative healthcare in the region.</p>
+                    
+                        <a href="ganesh booked appoinment.html"class="btn btn-warning btn-outline-primary text-dark mb-3" style="font-size: 20px;">Appointment</a>
+                </div>
+            </div>
+
+            <div class="img col-md-6 mx-auto d-block   MX-2 my-2">
+                <img src="Image/abouy.jpg" alt="" style="width: 50%;" class="mx-auto d-block mt-5">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-primary-subtle p-3">
+            <div class="col-md-5">
+                <h4 class="ms-3 text-dark">About Us</h4>
+                <p class="ms-3 text-success mt-4">Shree Ganesh Pathology Laboratory, located in Mehsana, Gujarat, has
+                    been consistently serving the community for the past decade. Currently We have working Vrundavan
+                    arcade in station road, patan, Gujarat .</p>
+            </div>
+
+
+            <div class="col-md-3 ps-5">
+                <h4 class="text-dark ">Information link</h4>
+                <ul class="ps-2 border text-success mt-4">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Packges</li>
+                    <li>Services</li>
+                    <li>Appointment</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h4 class=" text-dark">Contacts details</h4>
+                <p class="text-success mt-4"><i class="fa-regular fa-envelope me-1 text-primary"></i>Shree ganesh23@
+                    gamil.com</p>
+                <p class="text-success me-5"><i class="fa-solid fa-location-dot me-1 text-primary"></i>F/12 Vrudavan
+                    arcade opp
+                    bageshwar Mahadev mandir railway
+                    station road,patan.
+                </p>
+                <p class="text-success me-5"><i class="fa-solid fa-phone me-1 text-primary"></i>7016950679</p>
+            </div>
+        </div>
+    </div>
+    <div class="text-center bg-primary-subtle text-primary p-2 border border-secondary-subtle">© 2023 Shree Ganesh
+        Pathology Laboratory. All Rights Reserved.</div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
